@@ -14,6 +14,7 @@ def protein_code_full(code):
         'G':'Glycine',
         'H':'Histidine',
         'I':'Isoleucine',
+        'L':'Leucine',
         'K':'Lysine',
         'M':'Methionine',
         'F':'Phenylalanine',
