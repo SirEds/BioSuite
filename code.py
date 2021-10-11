@@ -30,7 +30,7 @@ def protein_code_full(code):
     for i in code_lst:
         if i in amino:
             name_lst.append(amino[i])
-    print('---'.join(name_lst))
+    print(' ---> '.join(name_lst))
 
 #input
 
