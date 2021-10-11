@@ -1,5 +1,4 @@
-def atoms(seq):
-    atom_count = {
+atom_count = {
         'A':13,
         'R':26,
         'N':17,
@@ -20,6 +19,9 @@ def atoms(seq):
         'Y':24,
         'V':19
     }
+
+
+def atoms(seq):
     seq = list(seq.upper())
     count = []
     for i in seq:
@@ -30,27 +32,6 @@ def atoms(seq):
     
 
 def total_atoms(seq):
-    atom_count = {
-        'A':13,
-        'R':26,
-        'N':17,
-        'D':16,
-        'C':14,
-        'Q':20,
-        'E':19,
-        'G':10,
-        'H':20,
-        'I':22,
-        'K':24,
-        'M':20,
-        'F':23,
-        'P':17,
-        'S':14,
-        'T':17,
-        'W':27,
-        'Y':24,
-        'V':19
-    }
     seq = list(seq.upper())
     count = []
     for i in seq:
