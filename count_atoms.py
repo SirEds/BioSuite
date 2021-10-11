@@ -20,7 +20,7 @@ def atoms(seq):
         'Y':24,
         'V':19
     }
-    seq = list(seq)
+    seq = list(seq.upper())
     count = []
     for i in seq:
         if i in atom_count:
@@ -51,7 +51,7 @@ def total_atoms(seq):
         'Y':24,
         'V':19
     }
-    seq = list(seq)
+    seq = list(seq.upper())
     count = []
     for i in seq:
         if i in atom_count:

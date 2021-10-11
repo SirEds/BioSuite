@@ -25,7 +25,7 @@ def protein_code_full(code):
         'V':'Valine'
     }
 
-    code_lst = list(code)
+    code_lst = list(code.upper())
     name_lst = []
     for i in code_lst:
         if i in amino:
