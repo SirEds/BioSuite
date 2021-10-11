@@ -1,4 +1,6 @@
-
+#This code will change your code-based amino acid sequence to a full-name one
+#just run the script and paste the sequence
+#Do not enter the sequence with any space nor whitespace (\n, Enter)
 
 def protein_code_full(code):
     amino = {
