@@ -11,3 +11,9 @@
 
 #### **This program does not take in consideration possible water molecules in the structure**
 ##### Reference: http://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/abbreviation.html
+
+## **molecular_weight.py**
+
+#### **This program does not take in consideration possible water molecules in the structure**
+#### Calculates the approximate molecular weight
+##### Reference: http://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/abbreviation.html
