@@ -23,7 +23,7 @@ amino_mass = {
     }
 
 def daltons(seq): 
-    seq_lst = list(seq)
+    seq_lst = list(seq.upper())
     daltons = [] 
     for i in seq_lst:
         if i in amino_mass:
@@ -32,14 +32,25 @@ def daltons(seq):
     return ', '.join(map(str, combined))
 
 def daltons_sum(seq): 
-    dalton_sum = daltons(seq)
-    return sum(dalton_sum)
+    seq_lst = list(seq.upper())
+    daltons = [] 
+    for i in seq_lst:
+        if i in amino_mass:
+            daltons.append(amino_mass[i])
+    sum_daltons = sum(daltons)
+    final_daltons = ("{:,}".format(sum_daltons))
+    return final_daltons
 
 def kDa(seq):
-    kda = daltons(seq)
-    kDa = (sum(kda))/1000
-    return kDa
-
+    seq_lst = list(seq.upper())
+    daltons = [] 
+    for i in seq_lst:
+        if i in amino_mass:
+            daltons.append(amino_mass[i])
+    sum_daltons = sum((daltons))/1000
+    final_daltons = ("{:,}".format(sum_daltons))
+    return final_daltons
+    
 def main(): 
     if option == "1": 
         print(daltons(seq))
