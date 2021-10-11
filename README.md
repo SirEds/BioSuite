@@ -1,4 +1,4 @@
-# **BioSuite Project**
+# **The BioSuite Project**
 
 
 ## **code.py**
