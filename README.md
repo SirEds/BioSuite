@@ -1,7 +1,7 @@
 # **BioSuite**
 
 
-## **Code_Name**
+## **code.py**
 
 #### -This code will output your code-based amino acid sequence to a full-name one
 #### -Just run the script and paste the sequence
