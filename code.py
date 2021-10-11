@@ -30,9 +30,15 @@ def protein_code_full(code):
     for i in code_lst:
         if i in amino:
             name_lst.append(amino[i])
+    return name_lst
+
+# Output
+def out():
+    name_lst = protein_code_full(seq)
     print(' ---> '.join(name_lst))
 
-#input
+
+# input
 
 if __name__ == "__main__":
     seq = input('''
@@ -40,4 +46,4 @@ if __name__ == "__main__":
     *Make sure the sequence does not have space or whitespace(enter)*\n\n
     '''
     )
-    protein_code_full(seq)
+    out()
