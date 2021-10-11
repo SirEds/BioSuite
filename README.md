@@ -1,5 +1,5 @@
-###Code_Name
+# Code_Name
 
-#This code will change your code-based amino acid sequence to a full-name one
-#Just run the script and paste the sequence
-#Do not enter the sequence with any space nor whitespace (\n, Enter)
+## This code will change your code-based amino acid sequence to a full-name one
+## Just run the script and paste the sequence
+## Do not enter the sequence with any space nor whitespace (\n, Enter)
